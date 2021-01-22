@@ -24,7 +24,7 @@ header{
     background-color: var(--darkblue);
     font-family: var(--titletext);
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 6%;
     color: var(--white);
     padding: 1%;
 }
@@ -32,6 +32,7 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container{
@@ -39,8 +40,6 @@ main{
     height: 130px;
     margin: 1%;
     border: none;
-    color: var(--red);
-    cursor: pointer;
 }
 
 .red{
@@ -56,6 +55,8 @@ main{
     width: 100%;
     padding: 3%;
     font-family: var(--generaltext);
+    cursor: pointer;
+    color: var(--darkred);
 }
 
 /* The Modal (background) */
