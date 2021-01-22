@@ -134,3 +134,14 @@ img{
 
 .modal-body {padding: 2px 16px;}
 
+
+@media (max-width: 480px){
+    img{
+        width: 80%;
+    }
+
+    .modal-content{
+        font-size: 1rem;
+        width: 90%;
+    }
+}
